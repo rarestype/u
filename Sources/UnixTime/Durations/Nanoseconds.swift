@@ -37,5 +37,4 @@ extension Nanoseconds: QuantizedDuration {
         )
     }
 }
-extension Nanoseconds: CustomStringConvertible {
-}
+extension Nanoseconds: CustomStringConvertible {}

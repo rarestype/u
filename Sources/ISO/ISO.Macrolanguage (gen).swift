@@ -749,8 +749,7 @@ extension ISO.Macrolanguage {
 extension ISO.Macrolanguage: Comparable {
     @inlinable public static func < (a: Self, b: Self) -> Bool { a.rawValue < b.rawValue }
 }
-extension ISO.Macrolanguage: RawRepresentableByIntegerEncoding {
-}
+extension ISO.Macrolanguage: RawRepresentableByIntegerEncoding {}
 extension ISO.Macrolanguage: CustomStringConvertible {
     @inlinable public var description: String {
         withUnsafeBytes(of: self.rawValue.bigEndian) {

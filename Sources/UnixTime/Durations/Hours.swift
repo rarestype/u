@@ -19,5 +19,4 @@ extension Hours: QuantizedDuration {
         self.init(count: duration.components.seconds / 3600)
     }
 }
-extension Hours: CustomStringConvertible {
-}
+extension Hours: CustomStringConvertible {}
