@@ -30,5 +30,4 @@ extension Microseconds: QuantizedDuration {
         )
     }
 }
-extension Microseconds: CustomStringConvertible {
-}
+extension Microseconds: CustomStringConvertible {}

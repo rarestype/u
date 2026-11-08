@@ -21,5 +21,4 @@ extension Seconds: QuantizedDuration {
         self.init(count: duration.components.seconds)
     }
 }
-extension Seconds: CustomStringConvertible {
-}
+extension Seconds: CustomStringConvertible {}

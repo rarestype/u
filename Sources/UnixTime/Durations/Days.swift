@@ -21,5 +21,4 @@ extension Days: QuantizedDuration {
         self.init(count: duration.components.seconds / 86_400)
     }
 }
-extension Days: CustomStringConvertible {
-}
+extension Days: CustomStringConvertible {}

@@ -1179,8 +1179,7 @@ extension ISO.Country {
 extension ISO.Country: Comparable {
     @inlinable public static func < (a: Self, b: Self) -> Bool { a.rawValue < b.rawValue }
 }
-extension ISO.Country: RawRepresentableByIntegerEncoding {
-}
+extension ISO.Country: RawRepresentableByIntegerEncoding {}
 extension ISO.Country: CustomStringConvertible {
     @inlinable public var description: String {
         withUnsafeBytes(of: self.rawValue.bigEndian) {

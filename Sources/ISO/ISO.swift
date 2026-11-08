@@ -1,2 +1,1 @@
-public enum ISO {
-}
+public enum ISO {}
