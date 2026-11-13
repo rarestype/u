@@ -113,7 +113,6 @@ extension ISO {
             case HU
             case ID
             case IE
-            case IL
             case IM
             case IN
             case IO
@@ -193,6 +192,7 @@ extension ISO {
             case PM
             case PN
             case PR
+            case PS
             case PT
             case PW
             case PY
