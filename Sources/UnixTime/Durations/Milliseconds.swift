@@ -37,8 +37,9 @@ extension Milliseconds: QuantizedDuration {
 
     @inlinable public init(truncating duration: Duration) {
         self.init(
-            count: duration.components.seconds * 1_000 +
-            duration.components.attoseconds / 1_000_000_000_000_000
+            count:
+                duration.components.seconds * 1_000 +
+                duration.components.attoseconds / 1_000_000_000_000_000
         )
     }
 }
